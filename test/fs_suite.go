@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	. "gopkg.in/check.v1"
-	. "gopkg.in/src-d/go-billy.v2"
+	. "github.com/karfield/go-check"
+	. "github.com/karfield/go-billy"
 )
 
 func Test(t *testing.T) { TestingT(t) }

@@ -3,8 +3,8 @@ package memfs
 import (
 	"testing"
 
-	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-billy.v2/test"
+	. "github.com/karfield/go-check"
+	"github.com/karfield/go-billy/test"
 )
 
 func Test(t *testing.T) { TestingT(t) }
